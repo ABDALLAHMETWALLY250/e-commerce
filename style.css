@@ -1,0 +1,662 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s !important;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.active {
+  background-color: white;
+  color: blue !important;
+}
+
+nav a {
+  font-weight: bold !important;
+}
+del{
+  text-decoration: line-through !important;
+}
+
+h5
+{
+  font-size: 14px ;
+  font-weight: 600;
+}
+
+.uyi {
+  background-image: url(https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tr p
+{
+  font-size: x-large;
+  font-weight: 400;
+}
+.tr h5
+{
+  font-size: x-large;
+  font-weight: 800;
+}
+.tr1 p
+{
+  font-size: x-large;
+  font-weight: 400;
+}
+.tr1 h5
+{
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.im {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.navbar .nav-link {
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 8, 255);
+  margin-right: 15px;
+}
+
+.hy {
+  color: #001e2b;
+  width: 100%;
+}
+
+.hy h4 {
+  font-size: 39px;
+  font-weight: 800;
+  padding: 20px;
+  line-height: 1.2;
+}
+
+.hy span {
+  font-size: 23px;
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.tr1 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.tr {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: capitalize;
+}
+
+.bg {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/banner-deal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 45vh;
+  padding: 8%;
+}
+
+/* @media(max-width:500px)
+{ 
+    .none{
+        display: none;
+    }
+    .hy
+    {
+        height: 60vh;
+        text-align: left;
+        width: 100%;
+        color: white;
+        
+    }
+    .hy h4
+    {
+        font-size: 27px;
+        font-weight: 800;
+        text-align: left;
+        margin-left: 19px;
+        margin-top: 230px;
+    }
+    .hy p
+    {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 25px;
+    }
+}
+@media(max-width:600px)
+{ 
+    .none{
+        display: none;
+    }
+    .hy
+    {
+        height: 60vh;
+        text-align: left;
+        width: 100%;
+        color: white;
+        
+    }
+    .hy h4
+    {
+        font-size: 27px;
+        font-weight: 800;
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 230px;
+    }
+    .hy p
+    {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:390px)
+{ 
+    .none{
+        display: none;
+    }
+    .hy
+    {
+        height: 60vh;
+        text-align: left;
+        width: 100%;
+        color: white;
+        
+    }
+    .hy h4
+    {
+        font-size: 27px;
+        font-weight: 800;
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 230px;
+    }
+    .hy p
+    {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 25px;
+    }
+}
+@media(max-width:360px)
+{ 
+    .none{
+        display: none;
+    }
+    .hy
+    {
+        height: 60vh;
+        text-align: left;
+        width: 100%;
+        color: white;
+        
+    }
+    .hy h4
+    {
+        font-size: 24px;
+        font-weight: 800;
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 170px;
+    }
+    .hy p
+    {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 25px;
+    }
+}
+@media(max-width:375px)
+{ 
+    .none{
+        display: none;
+    }
+    .hy
+    {
+        height: 60vh;
+        text-align: left;
+        width: 100%;
+        color: white;
+        
+    }
+    .hy h4
+    {
+        font-size: 24px;
+        font-weight: 800;
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 170px;
+    }
+    .hy p
+    {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 25px;
+    }
+} */
+.nav-item a
+{
+  margin-bottom: 10px ;
+}
+
+
+
+.df {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/ad-banner-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.df2 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/ad-banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.df3 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/banner/ad-banner-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.tyu img {
+  width: 56%;
+}
+
+.pou:hover {
+  color: green;
+  border: 1PX solid green;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+
+.bg1 ,.bg2 ,.bg3
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  border-radius: 20px;
+  
+}
+
+.bg1 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/slider/slider-image-1.jpg);
+}
+.bg2 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/slider/slider-image-2.jpg);
+
+}
+.bg3 {
+  background-image: url(https://freshcart.codescandy.com/assets/images/slider/slider-image-3.jpg);
+
+}
+.bg1 h2 
+{
+  position: absolute;
+  top: 30%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-left: 5%;
+}
+.bg1 span
+{
+  position: absolute;
+  top: 25%;
+  color: gray;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.bg1 .span
+{
+  position: absolute;
+  top: 60%;
+  margin-left: 5%;
+}
+.bg1 p
+{
+  position: absolute;
+  bottom:32%;
+  margin-left: 5%;
+}
+.bg1 .btn
+{
+  position: absolute;
+  bottom: 15%;
+  margin-left: 5%;
+} 
+.bg2 h2 
+{
+  position: absolute;
+  top: 30%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-left: 5%;
+}
+.bg2 span
+{
+  position: absolute;
+  top: 25%;
+  color: gray;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.bg2 .span
+{
+  position: absolute;
+  top: 60%;
+  margin-left: 5%;
+}
+.bg2 p
+{
+  position: absolute;
+  bottom:32%;
+  margin-left: 5%;
+}
+.bg2 .btn
+{
+  position: absolute;
+  bottom: 15%;
+  margin-left: 5%;
+} 
+.bg3 h2 
+{
+  position: absolute;
+  top: 30%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-left: 5%;
+}
+.bg3 span
+{
+  position: absolute;
+  top: 25%;
+  color: gray;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.bg3 .span
+{
+  position: absolute;
+  top: 60%;
+  margin-left: 5%;
+}
+.bg3 p
+{
+  position: absolute;
+  bottom:32%;
+  margin-left: 5%;
+}
+.bg3 .btn
+{
+  position: absolute;
+  bottom: 15%;
+  margin-left: 5%;
+} 
+
+mark
+{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+/* .card-body{
+  margin: 20px;
+} */
+.tab-content .card
+{
+  width: 100%;
+  height: 31vh !important;
+}
+input
+{
+  width: 40%;
+
+}
+form
+{
+  width: 40%;
+}
+.caed-link
+{
+  padding: 0 !important;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg {
+  background: #3b5998;
+}
+.twitter-bg {
+  background: #55acee;
+}
+.google-bg {
+  background: #dd4b39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  /* float:left; */
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+
+
+
+@media screen and (min-width:1024px) {
+  input{
+    width: 40%;
+  }
+}
+@media screen and (min-width:767px) and (max-width:1024px) {
+  input{
+    width: 31%;
+  }
+  .container, .container-md, .container-sm {
+  max-width: 100%;
+}
+  
+}
+@media screen and (max-width:767px)  {
+  input{
+    width: 40%;
+  }
+}
